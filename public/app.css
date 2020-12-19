@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Source+Sans+Pro:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SourceSansPro', sans-serif ;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    color: gainsboro;
+}
+.header {
+    position: relative;
+    height: 80vh;
+    background-image: url('/storage/img/1.jpg');
+    background-position: top;
+    background-position-y: 42%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header__box {
+    background-color: rgba(0,0,0,0.5);
+    padding: 30px;
+    backdrop-filter: blur(1px);
+
+    
+}
+
+.header__box__title {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 72px;
+    letter-spacing: 10px;
+    font-family: 'Fredoka One', cursive ;
+
+}
+
+.header__box__p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 32px;
+}
+
+body {
+    background-color: whitesmoke;
+
+}
+
+main .serviciosTitle {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    padding: 20px;
+
+}
+
+main .serviceText {
+    font-style: italic;
+    border-left: 10px #455dac solid;
+    padding-left: 20px;
+    color: #7a7a7a;
+
+}
+
+main .cards {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 10px gray;
+    animation-name: cardout;
+    animation-duration: .25s;
+    cursor: default;
+}
+
+main .card:hover {
+    transform: scale(1.1,1.1);
+    animation-name: card;
+    animation-duration: .25s;
+}
+
+
+@keyframes card {
+    0% { transform: scale(1,1)}
+    100% { transform: scale(1.1,1.1)}
+}
+
+@keyframes cardout {
+    0% { transform: scale(1.1,1.1)}  
+    100% { transform: scale(1,1)}
+}
+
+main .card .card-body{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+main .cards .card .card-img-top {
+    width: 75%;
+}
+
+main .cards .card .card-title {
+    text-align: center;
+}
+
+main .cards .card .card-text {
+    padding-top: 5px;
+    text-align: left;
+}
+footer {
+    background-color: #1b2647;
+}
+footer .footer {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.contactItem {
+    display: flex;
+    flex-direction: column;
+    
+}
+.contactItem .title-box {
+    display: flex;
+    flex-direction: row;
+}
+ .contactItem .title {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin-left: 15px;
+}
+
+ .contactItem .text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    color: white;
+    padding-top: 10px;
+
+}
+
+.contactItem .icon {
+    color: white;
+    padding-top: 2px;
+    border-bottom: 4px solid tomato;
+}
+.develop__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.develop__box .icon {
+    color: white;
+    padding-top: 5px;
+    
+}
+.develop__box .develop {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    color: white;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    margin-right: 10px;
+    text-align: left;
+}
+
+
+.w__button {
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    width: 80px;
+    border-radius: 50%;
+    background-color:#9fafe6;
+    opacity: 0.90;
+    cursor: pointer;
+    backdrop-filter: blur(6px);
+}
+
+.w__button:hover {
+    animation-name: wbutton;
+    animation-duration: .5s;
+    background-color: darkblue;
+}
+
+@keyframes wbutton {
+    0% { background-color: #9fafe6}
+    100% { background-color: darkblue}
+}
+
+@media all and (orientation: portrait) { 
+    main .servicios__box .container {
+        padding: 0;
+    }
+
+    main .cards {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    main .cards .card {
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 10px;
+    }
+
+    main .cards .card:hover {
+        transform: unset;
+    }
+
+    .w__button {
+        width: 50px;
+        right: 5%;
+    }
+
+    footer {
+        border-top: 5px solid lightblue;
+    }
+
+    footer .footer {
+        margin-top: 40px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 25px;
+        padding-bottom: 10px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    footer .footer .contactItem {
+        padding-bottom: 10px;
+    }
+
+    footer .develop__box {
+        margin-left: 10px;
+    }
+
+    @keyframes card {
+        0% { transform: scale(1,1)}
+        100% { transform: scale(1,1)}
+    }
+    
+    @keyframes cardout {
+        0% { transform: scale(1,1)}  
+        100% { transform: scale(1,1)}
+    }
+
+ }
