@@ -91,7 +91,7 @@
         </div>
     </footer>
     <div class="w__button">
-        <a href="https://api.whatsapp.com/send?phone=1161349283">
+        <a href="https://api.whatsapp.com/send?phone=5491161349283">
             <img src="/img/w.svg" alt="whatsapp" srcset="">
         </a>
     </div>
