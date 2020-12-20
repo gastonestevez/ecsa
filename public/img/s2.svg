@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg data-bbox="345 284 390 512" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg" data-type="color">
+    <g>
+        <path d="M540 359h45v30h-45z" fill="#b7c1fa" data-color="1"/>
+        <path d="M570 329h90v120h-90z" fill="#e3e7fa" data-color="2"/>
+        <path d="M615 329h45v120h-45z" fill="#b7c1fa" data-color="1"/>
+        <path d="M540 419h150v90H540z" fill="#b7c1fa" data-color="1"/>
+        <path d="M615 419h75v90h-75z" fill="#96a5f6" data-color="3"/>
+        <path d="M495 479h240v317H495z" fill="#e3e7fa" data-color="2"/>
+        <path d="M615 479h120v317H615z" fill="#b7c1fa" data-color="1"/>
+        <path d="M495 704h240v30H495z" fill="#96a5f6" data-color="3"/>
+        <path d="M615 704h120v30H615z" fill="#5771f6" data-color="4"/>
+        <path d="M465 359h30v30h-30z" fill="#5771f6" data-color="4"/>
+        <path d="M405 359h30v30h-30z" fill="#5771f6" data-color="4"/>
+        <path d="M345 359h30v30h-30z" fill="#5771f6" data-color="4"/>
+        <path d="M405 419h30v30h-30z" fill="#5771f6" data-color="4"/>
+        <path d="M345 434h30v30h-30z" fill="#5771f6" data-color="4"/>
+        <path d="M405 299h30v30h-30z" fill="#5771f6" data-color="4"/>
+        <path d="M345 284h30v30h-30z" fill="#5771f6" data-color="4"/>
+        <path d="M667.5 591.5H630V554h-30v37.5h-37.5v30H600V659h30v-37.5h37.5z" fill="#96a5f6" data-color="3"/>
+        <path d="M630 591.5V554h-15v105h15v-37.5h37.5v-30z" fill="#5771f6" data-color="4"/>
+    </g>
+</svg>

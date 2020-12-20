@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg data-bbox="345 284 390 512" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg" data-type="color">
+    <g>
+        <path d="M405 781h-30v-36.21l34.4-34.4 21.21 21.21L405 757.21z" fill="#96a5f6" data-color="1"/>
+        <path d="M705 781h-30v-23.79l-25.61-25.6 21.21-21.21 34.4 34.39z" fill="#5771f6" data-color="2"/>
+        <path d="M525 721h30v60h-30z" fill="#96a5f6" data-color="1"/>
+        <path d="M540 721h15v60h-15z" fill="#5771f6" data-color="2"/>
+        <path d="M405 645h270v91H405z" fill="#96a5f6" data-color="1"/>
+        <path d="M540 645h135v91H540z" fill="#5771f6" data-color="2"/>
+        <path d="M405 284h270v91H405z" fill="#96a5f6" data-color="1"/>
+        <path d="M540 284h135v91H540z" fill="#5771f6" data-color="2"/>
+        <path d="M705 345v330H555l-15-30-15 30h-60l-15-30-15 30h-60V345h60l15 30 15-30h60l15 30 15-30z" fill="#e3e7fa" data-color="3"/>
+        <path d="M705 345v330H555l-15-30V375l15-30z" fill="#b7c1fa" data-color="4"/>
+        <path d="M450 495h90v30h-90z" fill="#b7c1fa" data-color="4"/>
+        <path d="M450 435h90v30h-90z" fill="#b7c1fa" data-color="4"/>
+        <path d="M450 375h90v30h-90z" fill="#b7c1fa" data-color="4"/>
+        <path d="M450 555h90v30h-90z" fill="#b7c1fa" data-color="4"/>
+        <path d="M450 615h90v30h-90z" fill="#b7c1fa" data-color="4"/>
+        <path d="M435 345h30v330h-30z" fill="#b7c1fa" data-color="4"/>
+        <path d="M525 345h30v330h-30z" fill="#b7c1fa" data-color="4"/>
+        <path d="M540 345h15v330h-15z" fill="#96a5f6" data-color="1"/>
+        <path d="M345 766h90v30h-90z" fill="#b7c1fa" data-color="4"/>
+        <path d="M645 766h90v30h-90z" fill="#96a5f6" data-color="1"/>
+        <path d="M495 766h90v30h-90z" fill="#b7c1fa" data-color="4"/>
+        <path d="M540 766h45v30h-45z" fill="#96a5f6" data-color="1"/>
+    </g>
+</svg>

@@ -31,21 +31,21 @@
                  </p>
         <div class="cards">
             <div class="card" style="width: 18rem;">
-                <img src="/storage/img/s2.svg" class="card-img-top" alt="...">
+                <img src="/img/s2.svg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Fumigación</h5>
                     <p class="card-text">Con productos inofensivos en personas y mascotas,  nuestro equipo dejará su casa y jardín libre de insectos en pocas horas.</p>
                 </div>
               </div>
               <div class="card" style="width: 18rem;">
-                <img src="/storage/img/s1.svg" class="card-img-top" alt="...">
+                <img src="/img/s1.svg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Desratización</h5>
                   <p class="card-text">Realizamos una desinfección y posterior limpieza de todas las superficies para eliminar cualquier rastro biológico que pueda permanecer en ella.</p>
                 </div>
               </div>
               <div class="card" style="width: 18rem;">
-                <img src="/storage/img/s3.svg" class="card-img-top" alt="...">
+                <img src="/img/s3.svg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Limpieza de tanques</h5>
                   <p class="card-text">Realizamos la limpieza y desinfección, realizando el análisis bacteriológico, garantizando la seguridad y potabilidad del agua, según legislación vigente Ley 6040/18 Dec405/18.</p>
@@ -92,7 +92,7 @@
     </footer>
     <div class="w__button">
         <a href="https://api.whatsapp.com/send?phone=1161349283">
-            <img src="/storage/img/w.svg" alt="whatsapp" srcset="">
+            <img src="/img/w.svg" alt="whatsapp" srcset="">
         </a>
     </div>
     <script>
