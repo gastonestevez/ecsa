@@ -31,6 +31,10 @@ a:hover {
     background-color: rgba(0,0,0,0.5);
     padding: 30px;
     backdrop-filter: blur(1px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     
 }
@@ -51,9 +55,40 @@ a:hover {
     font-size: 32px;
 }
 
+.header__box__button {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    border-radius: 25px;
+    outline: unset;
+    border: unset;
+    font-size: 24px;
+    margin-right: 25px;
+    font-weight: 600;
+}
+
+.header__box__button:hover {
+    background-color: #455dac;
+}
+
+.header__box__button:focus {
+    outline: unset;
+}
+
+.header_anchor {
+    color: black;
+}
+
+.header_anchor:hover {
+    color: black;
+}
+
+
 body {
     background-color: whitesmoke;
-
 }
 
 main .serviciosTitle {
