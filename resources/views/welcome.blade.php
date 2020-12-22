@@ -30,28 +30,42 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M5G3CBX"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    
+
     <header>
         <div class="header">
             <div class="header__box">
                 <h2 class="header__box__title">E.C.S.A.</h2>
                 <p class="header__box__p">Control, saneamiento ambiental, fumigaciones y limpieza de tanques</p>
-                <a class='header_anchor' href="https://api.whatsapp.com/send?phone=541161349283&text=%20">
-                <button class="header__box__button"><i class="fab fa-whatsapp"></i> Consultanos </button>
-            </a>
+                <div class="header__box__group">
+                    <a class='header_anchor' href="https://api.whatsapp.com/send?phone=541161349283&text=%20">
+                    <button class="header__box__button"><i class="fab fa-whatsapp"></i> Consultanos </button>
+                    </a>
+                    <a class='header_anchor' href="tel:5491161349283">
+                        <button class="header__box__button"><i class="fas fa-phone-alt"></i> Llamanos </button>
+                    </a>
+                </div>
             </div>
         </div>
     </header>
     <main>
         <div class="servicios__box container">
             <h3 class="serviciosTitle">Servicios</h3>
-            <p class="serviceText">
-                Tenemos más de 15 años de experiencia en fumigaciones, control de plagas, desratización, y Limpieza de tanques.
-                
+            <p class="serviceTextTitle">
                 <strong>Servicios para Particulares, Comercios, Consorcios, Empresas e Industrias.</strong>
+            </p>
+            <div class="serviceText__box">
+                <p class="serviceText">
+                    Tenemos más de 15 años de experiencia en fumigaciones, control de plagas, desratización, y Limpieza de tanques.            
+                </p>
+                <p class="serviceText">
+                    En ECSA trabajamos de manera conjunta con el cliente a fin de determinar de manera correcta y efectiva el mejor método para la solución de sus necesidades, buscando siempre proteger la salud de las personas y nuestro medio ambiente.            
+                </p>
+                <p class="serviceText">
+                    Trabajamos cada día para solidificar nuestra posición y ser el socio preferido de las empresas en todos los mercados que servimos, al participar y cubrir cada una de las necesidades de nuestros clientes.
+                </p>
+            </div>
+
                 
-                En ECSA trabajamos de manera conjunta con el cliente a fin de determinar de manera correcta y efectiva el mejor método para la solución de sus necesidades, buscando siempre proteger la salud de las personas y nuestro medio ambiente. Trabajamos cada día para solidificar nuestra posición y ser el socio preferido de las empresas en todos los mercados que servimos, al participar y cubrir cada una de las necesidades de nuestros clientes.
-                 </p>
         <div class="cards">
             <div class="card" style="width: 18rem;">
                 <img src="/img/s2.svg" class="card-img-top" alt="...">
@@ -93,7 +107,10 @@
                     <i class="fab fa-whatsapp icon"></i>
                     <h5 class="title">Whatsapp</h5>
                 </div>
-                <p class="text">11 6134 9283</p>
+
+                
+
+                <p class="text"><a href="tel:5491161349283">11-6134-9283 </a></p>
             </div>
             <div class="contactItem">
                 <div class="title-box">
@@ -101,7 +118,7 @@
                     <h5 class="title">Mail</h5>
 
                 </div>
-                <p class="text">ecsafumigaciones@hotmail.com</p>
+                <p class="text"><a href="mailto:ecsafumigaciones@hotmail.com">ecsafumigaciones@hotmail.com</a></p>
             </div>
         </div>
         <div class="develop__box">

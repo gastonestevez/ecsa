@@ -25,6 +25,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 42px;
 }
 
 .header__box {
@@ -35,8 +36,6 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    
 }
 
 .header__box__title {
@@ -55,6 +54,11 @@ a:hover {
     font-size: 32px;
 }
 
+.header__box__group {
+    display: flex;
+    flex-direction: row;
+}
+
 .header__box__button {
     font-family: 'Source Sans Pro', sans-serif;
     color: black;
@@ -68,6 +72,7 @@ a:hover {
     font-size: 24px;
     margin-right: 25px;
     font-weight: 600;
+    min-width: 190px;
 }
 
 .header__box__button:hover {
@@ -96,7 +101,6 @@ main .serviciosTitle {
     text-align: center;
     font-size: 48px;
     font-weight: 600;
-    padding: 20px;
 
 }
 
@@ -105,11 +109,29 @@ main .serviceText {
     border-left: 10px #455dac solid;
     padding-left: 20px;
     color: #7a7a7a;
+    width: 30%;
+    padding-right: 10px;
+}
 
+main .serviceText:last-child {
+    padding-right: 10px;
+}
+
+main .serviceText__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 22px;
+}
+
+main .serviceTextTitle {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 42px;
 }
 
 main .cards {
-    padding-top: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -250,7 +272,52 @@ footer .footer {
     100% { background-color: darkblue}
 }
 
-@media all and (orientation: portrait) { 
+@media all and (orientation: portrait) {
+    .header__box__group {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header__box__button {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: black;
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: white;
+        border-radius: 25px;
+        outline: unset;
+        border: unset;
+        font-size: 24px;
+        margin-bottom: 25px;
+        margin-left: 20px;
+        font-weight: 600;
+        min-width: 190px;
+    }
+
+    main .serviceText__box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+        margin-bottom: 0;
+    }
+
+    main .serviceTextTitle {
+        margin-bottom: 20px;
+    }
+
+    main .serviceText {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    main .serviceText:last-child {
+        margin-bottom: 0;
+    }
+    
     main .servicios__box .container {
         padding: 0;
     }
